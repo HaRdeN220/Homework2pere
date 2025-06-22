@@ -2,11 +2,11 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        byte LudmilaStudents = 23;
-        byte AnnaStudents = 27;
-        byte EkaterinaStudents = 30;
-        short paper = 480;
-        System.out.println("На каждого ученика рассчитано " +
-                (paper/(LudmilaStudents+AnnaStudents+EkaterinaStudents)) + " листов бумаги");
+        short paint = 120;
+        short whiteColour = 2;
+        short brownColour = 4;
+        System.out.println("В школе, где " + (paint/(whiteColour + brownColour)) + " классов, нужно " +
+                ((paint/(whiteColour + brownColour))*whiteColour)+" банок белой краски и "+ ((paint/(whiteColour + brownColour))*brownColour) +
+                " банок коричневой краски");
         }
     }
